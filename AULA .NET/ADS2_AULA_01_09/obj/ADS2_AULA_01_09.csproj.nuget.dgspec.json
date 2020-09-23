@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_01_09/ADS2_AULA_01_09.csproj": {}
+  },
+  "projects": {
+    "/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_01_09/ADS2_AULA_01_09.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_01_09/ADS2_AULA_01_09.csproj",
+        "projectName": "ADS2_AULA_01_09",
+        "projectPath": "/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_01_09/ADS2_AULA_01_09.csproj",
+        "packagesPath": "/home/victorfm/.nuget/packages/",
+        "outputPath": "/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_01_09/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/victorfm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
