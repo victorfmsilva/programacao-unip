@@ -1,0 +1,6 @@
+D:\Unip2020\repos\ADS2_Aula_01_09_B\ADS2_Aula_01_09_B\bin\Debug\ADS2_Aula_01_09_B.exe.config
+D:\Unip2020\repos\ADS2_Aula_01_09_B\ADS2_Aula_01_09_B\bin\Debug\ADS2_Aula_01_09_B.exe
+D:\Unip2020\repos\ADS2_Aula_01_09_B\ADS2_Aula_01_09_B\bin\Debug\ADS2_Aula_01_09_B.pdb
+D:\Unip2020\repos\ADS2_Aula_01_09_B\ADS2_Aula_01_09_B\obj\Debug\ADS2_Aula_01_09_B.csproj.CoreCompileInputs.cache
+D:\Unip2020\repos\ADS2_Aula_01_09_B\ADS2_Aula_01_09_B\obj\Debug\ADS2_Aula_01_09_B.exe
+D:\Unip2020\repos\ADS2_Aula_01_09_B\ADS2_Aula_01_09_B\obj\Debug\ADS2_Aula_01_09_B.pdb

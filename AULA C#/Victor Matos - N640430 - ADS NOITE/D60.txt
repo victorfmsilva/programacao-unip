@@ -1,0 +1,35 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double Nd1, Nd2, Nd3, Nd4;
+		double Ex;
+
+		Console.WriteLine("Por favor, entre com as notas");
+		Nd1 = Convert.ToDouble(Console.ReadLine());
+		Nd2 = Convert.ToDouble(Console.ReadLine());
+		Nd3 = Convert.ToDouble(Console.ReadLine());
+		Nd4 = Convert.ToDouble(Console.ReadLine());
+
+		double Med1 = (Nd1 + Nd2 + Nd3 + Nd4) / 4;
+
+
+		if (Med1 >= 7){
+                Console.WriteLine(" Aprovado " + Med1);
+		} else {Console.WriteLine("Entre com a nota do Exame");
+            
+		}
+		
+		Ex = Convert.ToDouble(Console.ReadLine());
+		double Med2 = (Med1 + Ex) / 2;
+
+		if (Med2 >= 5) {
+			Console.WriteLine(" Aprovado " + Med2);
+		}  else{
+			Console.WriteLine("Reprovado " + Med2);
+		}    
+
+	}
+}

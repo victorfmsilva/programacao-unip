@@ -1,0 +1,26 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+	// Variaveis
+            string nome, sexo;
+            
+            // Inicio
+            Console.WriteLine("Qual o Nome? ");
+            nome = Console.ReadLine();
+            Console.WriteLine("Qual o Sexo F ou M? ");
+            sexo = Console.ReadLine();
+
+            if (sexo == "M")
+            {
+                Console.WriteLine("Ola Sr." + nome);
+            }
+            else 
+             {
+                if (sexo == "F")
+                { Console.WriteLine("Ola Sra." + nome); }
+             }
+	}
+}

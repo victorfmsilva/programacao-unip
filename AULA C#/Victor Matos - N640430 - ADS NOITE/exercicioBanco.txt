@@ -1,0 +1,55 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int RestoSaque;
+		int Saque; 
+
+		Console.WriteLine("Qual o valor do saque: ");
+		Saque = Convert.ToInt16(Console.ReadLine());
+
+		// inicio
+		//100
+		RestoSaque = Saque % 100;
+		Saque = Saque / 100; 
+		Console.WriteLine("Notas 100: " + Saque);
+            
+		//50
+		Saque = RestoSaque;
+		RestoSaque = Saque % 50;
+		Saque = Saque / 50;
+		Console.WriteLine("Notas 50: "+Saque);
+		
+		//20
+		Saque = RestoSaque;
+		RestoSaque = Saque % 20;
+		Saque = Saque / 20;
+		Console.WriteLine("Notas 20: "+Saque);
+		
+		//10
+		Saque = RestoSaque;
+		RestoSaque = Saque % 10;
+		Saque = Saque / 10;
+		Console.WriteLine("Notas 10: "+Saque);
+		
+		// notas de 5
+		Saque = RestoSaque;
+		RestoSaque = Saque % 5;
+		Saque = Saque / 5;
+		Console.WriteLine("Notas 5: "+Saque);
+		
+		// notas de 2
+		Saque = RestoSaque;
+		RestoSaque = Saque % 2;
+		Saque = Saque / 2;
+		Console.WriteLine("Notas 2: "+Saque);
+		
+		// notas de 1
+		Saque = RestoSaque;
+		RestoSaque = Saque % 1;
+		Saque = Saque / 1;
+		Console.WriteLine("Notas 1: "+Saque);
+	}
+}

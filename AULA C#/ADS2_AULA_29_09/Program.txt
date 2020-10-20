@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace ADS2_AULA_29_09
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            while(true)
+            {
+                Console.WriteLine("Olá mundo ");
+                Console.ReadKey();
+            }
+            
+            /*
+            do
+            {
+                Console.WriteLine("Olá mundo ");   
+            } while (false);
+            */
+            /*
+            for (tmp = 0; tmp < 10; tmp++)
+            {
+                Console.WriteLine("for tmp" + tmp);
+            }
+            */
+        }
+    }
+}

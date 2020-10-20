@@ -1,0 +1,29 @@
+using System;
+
+namespace ADS2_Aula_01_09
+{
+    class Program1
+    {
+        static void Main(string[] args)
+        {
+            int Idade;
+
+            Console.WriteLine("Qual a idade: ");
+            Idade = Convert.ToInt32(Console.ReadLine()); 
+
+            Console.WriteLine("idade é: " + Idade);
+
+            // Console.ReadKey();
+
+            //exibe resultado
+
+            if(Idade >= 18){
+                Console.WriteLine("Maior de idade ");
+            }else
+            {
+                Console.WriteLine("Menor de idade ");
+            }
+            
+        }
+    }
+}

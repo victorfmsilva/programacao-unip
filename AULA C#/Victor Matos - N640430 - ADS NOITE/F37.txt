@@ -1,0 +1,27 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//Variaveis
+            float a, b;
+			float c = 0;
+
+            // Entrada
+
+            Console.WriteLine("valor de A: ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("valor de B: ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Valor A: " + a + " Valor B: " + b);
+			
+			c = a;
+            a = b;
+            b = c;
+
+            Console.WriteLine("Novo valor de A: " + a + " Novo valor de B: " + b);
+	}
+}

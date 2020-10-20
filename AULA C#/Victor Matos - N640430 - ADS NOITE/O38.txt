@@ -1,0 +1,29 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+			//Variaveis
+            int a, b, c, d, p, s;
+
+            // Entrada
+            Console.WriteLine("o Valor A: ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("o valor B: ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("o valor C: ");
+            c = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("o valor D: ");
+            d = Convert.ToInt32(Console.ReadLine());
+
+            p = a * c;
+            s = b + d;
+
+            Console.WriteLine("Valor de P: " + p); 
+            Console.WriteLine("Valor de S: " + s);
+	}
+}

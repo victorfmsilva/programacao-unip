@@ -1,0 +1,37 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		// Variaveis
+		int v1, v2, v3, v4;
+            
+		// Inicio do codigo
+		Console.WriteLine("Qual o valor 1?: ");
+		v1 = Convert.ToInt32(Console.ReadLine());
+		
+		Console.WriteLine("Qual o valor 2?: ");
+		v2 = Convert.ToInt32(Console.ReadLine());
+		
+		Console.WriteLine("Qual o valor 3?: ");
+		v3 = Convert.ToInt32(Console.ReadLine());
+
+		Console.WriteLine("Qual o valor 4?: ");
+		v4 = Convert.ToInt32(Console.ReadLine());
+		
+		//inicio IF
+		if ((v1 % 2)==0 && (v1 % 3)==0){
+			Console.WriteLine("O Valor 1 e divisivel por 2 e 3: " + v1);
+		}
+		if ((v2 % 2)==0 && (v2 % 3)==0){
+			Console.WriteLine("O Valor 2 e divisivel por 2 e 3: " + v2);
+		}
+		if ((v3 % 2) ==0 && (v3 % 3) ==0){
+			Console.WriteLine("O Valor 3 e divisivel por 2 e 3: " + v3);
+		}
+		if ((v4 % 2) == 0 && (v4 % 3) == 0){
+			Console.WriteLine("O Valor 4 e divisivel por 2 e 3: " + v4);
+		}
+	}
+}

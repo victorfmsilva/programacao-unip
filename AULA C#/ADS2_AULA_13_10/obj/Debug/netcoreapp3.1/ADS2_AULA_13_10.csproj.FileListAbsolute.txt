@@ -1,0 +1,13 @@
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/bin/Debug/netcoreapp3.1/ADS2_AULA_13_10
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/bin/Debug/netcoreapp3.1/ADS2_AULA_13_10.deps.json
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/bin/Debug/netcoreapp3.1/ADS2_AULA_13_10.runtimeconfig.json
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/bin/Debug/netcoreapp3.1/ADS2_AULA_13_10.runtimeconfig.dev.json
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/bin/Debug/netcoreapp3.1/ADS2_AULA_13_10.dll
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/bin/Debug/netcoreapp3.1/ADS2_AULA_13_10.pdb
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/obj/Debug/netcoreapp3.1/ADS2_AULA_13_10.csprojAssemblyReference.cache
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/obj/Debug/netcoreapp3.1/ADS2_AULA_13_10.AssemblyInfoInputs.cache
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/obj/Debug/netcoreapp3.1/ADS2_AULA_13_10.AssemblyInfo.cs
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/obj/Debug/netcoreapp3.1/ADS2_AULA_13_10.csproj.CoreCompileInputs.cache
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/obj/Debug/netcoreapp3.1/ADS2_AULA_13_10.dll
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/obj/Debug/netcoreapp3.1/ADS2_AULA_13_10.pdb
+/home/victorfm/Downloads/Pessoal/Programação UNIP/AULA .NET/ADS2_AULA_13_10/obj/Debug/netcoreapp3.1/ADS2_AULA_13_10.genruntimeconfig.cache

@@ -1,0 +1,25 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//Variaveis
+            float v, t, tx, p;
+
+            // Entrada
+
+            Console.WriteLine("Informe valor: ");
+            v = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Qual a taxa: ");
+            tx = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Relate o tempo: ");
+            t = Convert.ToInt32(Console.ReadLine());
+
+            p = v + (v * (tx / 100) * t);
+            Console.WriteLine("Valor da Prestação: " + p);
+		
+	}
+}

@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		    //Variaveis
+            int a, b;
+		
+            // Entrada
+            Console.WriteLine("Digite o Valor A: ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor B: ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            if (a >= b) 
+            { Console.WriteLine("O Valor da Diferença é: " + (a-b)); }
+            
+            else
+            { Console.WriteLine("O Valor da Diferença é: " + (b-a)); }
+	}
+}

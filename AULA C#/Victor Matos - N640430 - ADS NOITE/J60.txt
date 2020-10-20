@@ -1,0 +1,13 @@
+// Variaveis
+int n1;
+            
+// Inicio
+Console.WriteLine("Qual o numero? ");
+n1 = Convert.ToInt32(Console.ReadLine());
+
+if (n1 % 2 == 0){
+	Console.WriteLine("O Valor e par! ");
+}
+else{
+	Console.WriteLine("O Valor e ímpar! ");
+}

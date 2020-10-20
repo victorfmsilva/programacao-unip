@@ -1,0 +1,28 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		    //Variaveis
+            int a, b, c, d, m;
+
+            // Entrada
+            Console.WriteLine("Digite a nota A: ");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite a nota B: ");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite a nota C: ");
+            c = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite a nota D: ");
+            d = Convert.ToInt32(Console.ReadLine());
+   		    m = (a + b + c + d)/4;
+            if (m >= 5)
+
+            { Console.WriteLine("O Aluno está Aprovado!"); }
+
+            else 
+            { Console.WriteLine("O Aluno está Reprovado!"); }
+
+	}
+}

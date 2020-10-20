@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		// Variaveis
+        int n1;
+		
+		// Inicio
+        Console.WriteLine("Qual o numero? ");
+        n1 = Convert.ToInt32(Console.ReadLine());
+
+            if (!(n1 >= 3))
+            {
+                Console.WriteLine("E menor do que três: " + n1);
+            }
+            else
+            {
+                Console.WriteLine("O Valor digitado e maior que 3 ");
+            }
+	}
+}

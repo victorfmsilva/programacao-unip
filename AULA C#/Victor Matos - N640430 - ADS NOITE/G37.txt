@@ -1,0 +1,41 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//Variaveis
+            int a, b, c, d;
+
+           
+            // Entrada
+            Console.WriteLine("Digite o valor de A");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor de B");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor de C");
+            c = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor de D");
+            d = Convert.ToInt32(Console.ReadLine());
+
+			Console.WriteLine("As somas são: "+ (a+b));
+			Console.WriteLine("As somas são: "+ (a+c));
+			Console.WriteLine("As somas são: "+ (a+d));
+			Console.WriteLine("As somas são: "+ (b+c));
+			Console.WriteLine("As somas são: "+ (b+d));
+			Console.WriteLine("As somas são: "+ (c+d));
+		
+			Console.WriteLine("As Multiplicações são: "+ (a*b));
+			Console.WriteLine("As Multiplicações são: "+ (a*c));
+			Console.WriteLine("As Multiplicações são: "+ (a*d));
+			Console.WriteLine("As Multiplicações são: "+ (b*c));
+			Console.WriteLine("As Multiplicações são: "+ (b*d));
+			Console.WriteLine("As Multiplicações são: "+ (c*d));
+		
+			Console.WriteLine("As somas geral é " +(a + b + c + d));
+            Console.WriteLine("A Multiplicação geral é: " + (a * b * c * d));
+	}
+}

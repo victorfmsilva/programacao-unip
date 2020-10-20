@@ -1,0 +1,24 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//Variaveis
+		double a, b, diferenca= 0;
+		double quadrado1,quadrado2;
+           
+		// Entrada
+		Console.WriteLine("Digite o valor de A");
+		a = Convert.ToInt32(Console.ReadLine());
+
+		Console.WriteLine("Digite o valor de B");
+		b = Convert.ToInt32(Console.ReadLine());
+           
+		quadrado1 = a*a;
+		quadrado2 = b*b;
+		diferenca = quadrado1-quadrado2;
+           
+		Console.WriteLine("O Resultado é: " + diferenca);
+	}
+}

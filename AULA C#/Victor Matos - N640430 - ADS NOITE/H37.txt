@@ -1,0 +1,24 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//Variaveis
+            float a, c, v, l, r;
+
+            // Entrada
+
+            Console.WriteLine("Valor da Altura: ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Valor do Comprimento: ");
+            c = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Valor da Largura: ");
+            l = Convert.ToInt32(Console.ReadLine());
+
+            v = c * l * a;
+            Console.WriteLine("Valor e esse: " + v);
+	}
+}
